@@ -1,0 +1,258 @@
+《Object classes have been changed. The old ones are hidden. This shouldn't cause scripting errors. But if you get an error "=== Missing Addons ===" or "Vehicle class Particle_BigFire_F no longer exists" etc. please feedback in a comment or to the author DM》
+
+FIXED:
+	🛠 Untranslated localization key for all languages except Russian and English of Photos (Cities, Stratis)
+	🛠 Lost texture for books
+	🛠 _generalMacro for "land_hangar_lamp", "Land_smokegrenade_orange_throw_F"
+	🛠 Names Bomb/Missile mixed up for airport objects
+	🛠 Name for "Land_PCSet_01_vrSims_F", "Land_BombCluster_01_F", "Land_Missile_AA_03_fly_F", "Land_Handgrenade_throw_F"
+	🛠 Function BIS_EXP_m01_destroyElectronics dont work for FM Radio
+	🛠 Wrong texture of Artwork (Apex)
+	🛠 Wrong marker texture to Arrow (Small, v1)
+	🛠 Wrong 3d model for "Land_Missile_ATGM_01_F" and "Land_Missile_ATGM_01_fly_F"
+	🛠 A lot of punctuation errors in localizations
+	🛠 Removed "make hat" script from empty Aluminium foil box
+	🛠 Removed user texture from attribute for many decals
+	🛠 Whiteboard (Laws of War DLC, random) - wrong subcatrgory
+	🛠 Spam global parameters when using some leaflets
+	🛠 Removed repair abillity for Tempest (Atrox Counteragent)
+	🛠 Tweaked localization for Tin Foil (Empty), Kitchen, Calvary (Column, Enoch Saints)...
+	🛠 Tweaked localization for "Land_Decal_ScorchMark_01_large01_F", "Land_GuardHouse_03_gate_F", "Land_cargo20_emp_sign_F", "Land_Power_Pole_Wood3", "Land_Power_Pole_Wood2", "Land_Power_Pole_Wood1_Lamp_Amp", "Land_Power_Pole_Wood1_Lamp", "Land_Power_Pole_Wood1_Amp", "Land_Power_Pole_Wood1", "Land_powerline_02_pole_small_hook_junction_f", "Land_powerline_02_pole_small_hook_end_f", "Land_powerline_02_pole_junction_nest_a_f", "Land_Box_Science_F", "O_T_Truck_03_science_containers_ghex_F"...
+	🛠 Wrong goggle for OPFOR CBRN Specialist
+
+
+
+UPDATED:
+	↻ Updated and tweaked localization for all Book (Large, ***) and Book (Small, ***)
+	↻ Parents to "N4_tomPoster", "N4_tohPoster", "S5_drawing_big", "S8_PhotoWall_02", "S8_PhotoWall_01", "Land_radar_poster_02_F" is "Land_Poster_01_F" now Posters
+	↻ All Editor Previews without DoF for better visual of objects on a alpha-background
+	↻ Added 6th textures (gray-colored) for firing drills graffities
+	↻ Icons for "anatomy_poster_1", "anatomy_poster_2", "anatomy_poster_2", "S5_exhibitOld", "S5_exhibit", "N4_tomPoster", "N4_tohPoster", "S5_ylands", all billboards
+	↻ Functionality for "Sign_Direction_IDAP_F" (some updates and tweaks)
+	↻ Name for "Poster_Sign_AntiCSAT", "school_clock", "Land_Missile_SAM_02_fly_F", "Land_Missile_SAM_03_fly_F", "Land_Missile_SAM_04_fly_F", "Land_CobblestoneSquare_01_trans_01_F", "Land_CobblestoneSquare_01_trans_02_F"...
+	↻ Family "Land_PCSet_01_screen_"
+	↻ All numbers-graffiti textures was includet in 1 object. At result: 6 versions of numbers (the rest are hidden)
+	↻ Old Laptop (Open, OFP) now has the same relationship "Laptop_02_"
+	↻ Images representing the mod
+	↻ Mod key
+	↻ Add-on signatures
+
+
+
+ADDED:
+	[data]:
+		+ Tablet [IDAP]
+		+ Book (Small, Culture In Crisis)
+		+ Book (Large, Culture In Crisis)
+		+ Book (Small, English-Latin Dictionary)
+		+ Book (Large, English-Latin Dictionary)
+		+ Banner (Random) [NATO]
+		+ Banner [NATO]		
+		+ Rugged Laptop (Sand, Open, Random) [NATO]
+		+ Rugged Laptop (Black, Open, Random) [NATO]
+		+ Rugged Laptop (Olive, Open, Random) [NATO]
+		+ Rugged Laptop (Sand, Open) [NATO]
+		+ Rugged Laptop (Black, Open) [NATO]
+		+ Rugged Laptop (Olive, Open) [NATO]		
+		+ Rugged Large Screen (Firing Drills)
+		+ Rugged Large Screen (Sand, Firing Drills) 
+		+ Rugged Large Screen (Black, Firing Drills)		
+		+ Rugged Tablet (Firing Drills) 
+		+ Rugged Tablet (Sand, Firing Drills) 
+		+ Rugged Tablet (Black, Firing Drills)		
+		+ PC Set (Screen, Eden Editor)
+		+ Powerline Pole (Small, Junction)
+		+ Chemlight (Blue, Used)
+		+ Chemlight (Green, Used)
+		+ Chemlight (Red, Used)
+		+ Chemlight (Yellow, Used)
+		+ Gallery Frame (Large, v1, Random)
+		+ Gallery Frame (Large, v2, Random)
+		+ Gallery Frame (Large, v3, Random)
+		+ Gallery Frame (Large, Portrait, Random)
+		+ Gallery Frame (Large, Rectangle, Random)
+		+ Gallery Frame (Medium, Random)
+		+ Gallery Frame (Medium, Rectangle, Random)
+		+ Photo Frame (Portrait, Eddie)
+		+ Photo Frame (Portrait, Standing, Eddie)
+		+ Whiteboard (Wall) [IDAP]
+		+ Whiteboard (Random) [IDAP]
+		+ Whiteboard (Wall, Random) [IDAP]
+		+ Whiteboard (Wall, The East Wind)
+		+ Whiteboard (Wall, Oldman)
+		+ Whiteboard (Wall, Firing Drills)
+		+ Whiteboard (Wall) [IDAP]
+		+ Canopy (A-143 Buzzard)
+		+ Carrier Lite (Green, Light)
+		+ Chest Rig (Olive, Light)
+		+ Fatigues (Digital) [CSAT]
+		+ Fatigues (Military Police Officer) [CSAT]
+		+ Spectacle Glasses 「non-textured model "VR objects >> helpers"」
+		+ RPG-7 			「non-textured model "VR objects >> helpers"」
+		+ Wig 				「non-textured model "VR objects >> helpers"」
+		+ Glock 17 9 mm 	「non-textured model "VR objects >> helpers"」
+		+ AKMS 7.62 mm 		「non-textured model "VR objects >> helpers"」
+		+ Sign (Quarantine)
+		+ Crossing Barrier (Closed)
+		+ Flare (White, Used)
+		+ Flare (Green, Used)
+		+ Flare (Red, Used)
+		+ Flare (Yellow, Used)
+		+ Compass (Black)
+		+ GPS
+		+ Bullet Casing (12 Gauge Slugs)
+		+ Bullet Casing (7.62x54 mm)
+		+ VR Game Block (Cube, 1m, no fire geometry)
+		+ Memory fragment
+		+ Target - Oval (Ground)
+		+ UFO (Beam)
+		+ UFO
+		+ Simple Target (Santiago)
+		+ Simple Target (IDAP)
+		+ Crowe
+		+ Damage 「graffiti with 13 others texstures iu attrubetes」
+		+ Graffiti (Gear)
+		+ Graffiti 'Santiago'
+		+ Graffiti 'Phalanks !!HVT!!'
+		+ Graffiti 'Aliens#Fakenews'
+		+ AFV-4 Gorgon 「3 2026-FIA variants」
+		+ Smoke 「another particle effect」
+		+ Fire 「another particle effect」
+		+ Bubbles 「another particle effect」
+		+ 3 additional textures for Whiteboard (Firing Drills)
+		+ Cammofaces 「34 semiarid variants」
+		+ Devs faces		
+		+ Leaflet (Suicide Note)
+		+ Leaflet (Old, Suicide Note)
+		+ Leaflet (New, Suicide Note)
+		+ Leaflet (Kids' Drawings, Random)
+		+ Leaflet (Kids' Drawings)
+		+ Leaflet (Old, Kids' Drawings, Random)
+		+ Leaflet (Old, Kids' Drawings)
+		+ Leaflet (IHL, Random)
+		+ Leaflet (IHL)
+		+ Leaflet (Old, IHL, Random)
+		+ Leaflet (Old, IHL)
+		+ Leaflet (Old, Crime)
+		+ Leaflet (Crime)
+		+ Leaflet (Old, Benjamin Hope)
+		+ Leaflet (Benjamin Hope)
+		+ Leaflet for CSAT, FIA, Civilians and NATO
+		+ Leaflet (Old) for CSAT, FIA, Civilians and NATO
+		+ Leaflet (New) for CSAT, FIA, Civilians and NATO
+		+ Leaflet (New, IHL, Random)
+		+ Leaflet (New, Childs Drawing) 「plus 39 textures in attrubetes」
+		+ Leaflet (New, Drawings) 「plus 9 textures in attrubetes」
+
+	[characters]:	
+		+ Rifleman (Russian)
+		+ Military Police Officer
+		+ Kostas Dimitriou
+		+ new faction "Scimitar Regiment" (10 solders)
+		+ 2026-year FIA (11 solders & 3 APCs)
+		+ 2026-year Government loyalists (13 solders)
+		+ Kerry 'Win'
+		+ Kerry 'Adapt'
+		+ Kerry 'Survive'
+
+	[modules]:
+		+ Flare rockets
+
+	[localization]:
+		+ Vegetation translation on all Arma3-languages is 100% complete
+		+ Added localization for animals (random)
+
+	[functions-new]:
+		+ expEden_fnc_memoryFragmentPP_01 (for Memory fragment)
+		+ expEden_fnc_moduleFlareCreate
+
+	[public functions]:
+		+ BIS_EXP_m04_flareCreate
+		+ BIS_EXP_m04_flareInit
+		+ BIS_EXP_m04_flareLight
+		+ BIS_EXP_m04_flareSound
+
+	[functionity]:
+		+ Now we can turning plastic barriers from Karts DLC, in attributes
+		+ Added abillity to slide drawers for Office Table (Old) and Office Table (New), in attributes
+		+ Texture animation abillity for Laptop (Open, Simulation Terminated), in attributes
+		+ In Launcher (Skyfire), you can now select the number of loaded rockets, from 0 to 19 rounds, in attributes
+		+ Interaction (bis_fnc_initLeaflet) for CSAT, FIA, civilians, NATO Leaflets)
+		
+	[weapons]:
+		+ LMG_03_MRCO_Pointer_F
+		+ arifle_SPAR_01_blk_Hamr_Pointer_Snds_F
+		+ arifle_MX_SW_Black_BI_F
+		+ srifle_EBR_MRCO_F
+		+ arifle_AK12U_MRCO_FL_F
+		+ arifle_Mk20C_ACO_FL_F
+		+ LMG_03_Holo_F
+		+ LMG_Mk200_ACO_pointer_F
+		+ srifle_DMR_06_camo_MRCO_BI_F
+		+ srifle_GM6_MRCO_F
+		+ arifle_AK12_Holo_pointer_BI_F
+		+ srifle_DMR_06_camo_AMS_F
+		+ srifle_DMR_03_sturrock_F	
+		
+	[bags]:
+		+ B_Carryall_khk_Sparrowhawk_F
+		+ B_AssaultPack_Ammo_rgr
+		+ B_Kitbag_sgg_sturrock
+		+ B_Carryall_cbr_LAT_F
+
+
+
+DELETED:
+	- Rugged Laptops "Land_Laptop_03_MillerNtbScreen_F", "Laptop_CTRG_01", ..., "Laptop_CTRG_05". They have been merged into new Rugged Laptops classes
+	- Whiteboard [Syndikat] (v1) & (v2) - their textures added to Whiteboard (Wall, Oldman) and Whiteboard (Oldman)
+	- Refused the subcategory "School" - all objects are distributed according to their counterparts
+	- all plastic barriers are hidden except the standard ones - straight (i.e. added by the developers), (added functionity in standart objects to turn their segments)
+	- hide some rokets and missiles - duplicate 3d models
+	- Hidden Painting (v17) - duplicate 3d model
+	- Hidden Tree (Fallen, v8) - duplicate 3d model
+	- Violet Leaves (v2) - duplicate 3d model
+	- Hidden two cocos tree - duplicate 3d models
+	- Hidden "t_PopulusN3s_F" - duplicate 3d model
+	- BIS_fnc_EXP_m01_radioMusic from "Land_SurvivalRadio_F"
+	- BIS_EXP_m01_destroyElectronics from "Land_PCSet_01_Screen_" (function dont work with user texture 「fix in wishlist」). Function not removed in standard objects
+
+
+
+CHANGED:
+	⎇ old class "Book_01_small", new class "Book_01_CallsignNomad_F"
+	⎇ old class "Book_02_small", new class "Book_01_BattlefieldLogistic_F"
+	⎇ old class "Book_03_small", new class "Book_01_SUT_F"
+	⎇ old class "Book_04_small", new class "Book_01_Checkmate_F"
+	⎇ old class "Book_05_small", new class "Book_01_SokolskiMutin_F"
+	⎇ old class "Book_06_small", new class "Book_01_LivoniaTravelGuide_F"
+	⎇ old class "Book_01_large", 	new class "Book_02_CallsignNomad_F"
+	⎇ old class "Book_02_large", 	new class "Book_02_BattlefieldLogistic_F"
+	⎇ old class "Book_03_large",	new class "Book_02_SUT_F"
+	⎇ old class "Book_04_large", 	new class "Book_02_Checkmate_F"
+	⎇ old class "Book_05_large", 	new class "Book_02_SokolskiMutin_F"
+	⎇ old class "Book_06_large", 	new class "Book_02_LivoniaTravelGuide_F"
+	⎇ old class "Book_01_random", 	new class "Book_01_random_F"
+	⎇ old class "Book_02_random", 	new class "Book_02_random_F"	
+	⎇ old class "Photoframe_broken_random", new class "Land_Photoframe_01_broken_random_F"
+	⎇ old class "Photoframe_random", 		new class "Land_Photoframe_01_random_F"	
+	⎇ old class "Land_picture_a", 		new class "Land_Picture_01_Church_F"
+	⎇ old class "Land_picture_a_02", 	new class "Land_Picture_01_Landscape_F"
+	⎇ old class "Land_picture_a_03", 	new class "Land_Picture_01_Rock_F"
+	⎇ old class "Land_picture_a_04", 	new class "Land_Picture_01_River_F"
+	⎇ old class "Land_picture_a_05", 	new class "Land_Picture_01_Lake_F"
+	⎇ old class "Land_picture_b", 		new class "Land_Picture_02_Seaport_F"
+	⎇ old class "Land_picture_b_02", 	new class "Land_Picture_02_House_F"
+	⎇ old class "Land_picture_c", 		new class "Land_Picture_03_Mountain_F"
+	⎇ old class "Land_picture_c_02", 	new class "Land_Picture_03_Palace_F"
+	⎇ old class "Land_picture_d", 		new class "Land_Picture_04_Town_F"
+	⎇ old class "Land_picture_d_02",	new class "Land_Picture_04_HayBale_F"
+	⎇ old class "Land_picture_e",		new class "Land_Picture_05_Rowboat_F"
+	⎇ old class "Land_picture_e_02", 	new class "Land_Picture_05_NavalWarfare_F"
+	⎇ old class "Land_picture_f", 		new class "Land_Picture_06_Waves_F"
+	⎇ old class "Land_picture_f_02", 	new class "Land_Picture_06_SailingShip_F"
+	⎇ old class "Land_picture_g", 		new class "Land_Picture_07_MilitaryArt_F"
+	⎇ old class "treeNote_random", new class "Leaflet_05_announcements_01_random_F"
+	⎇ old class "treeNote_random_a", new class "Leaflet_05_New_announcements_01_random_F"
+	⎇ old class "treeNote_random_b", new class "Leaflet_05_Old_announcements_01_F"
+	⎇ old class "Leaflet_New_random_01", new class "Leaflet_05_New_ChildDrawings_radnom_F"
+	⎇ old class "Leaflet_New_childDrawings_01_F", new class "Leaflet_05_New_ChildDrawings_F"
