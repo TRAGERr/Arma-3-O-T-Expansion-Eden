@@ -1,0 +1,256 @@
+legend:
+    "--->" ---> comment
+
+    @ ---> Eden Editor Category
+    # ---> Eden Editor Subcategory
+
+    + ---> New asset
+
+    № ---> non-Eden Editor change
+    🛠 ---> fixed bug
+    ↻ ---> update
+    ⎇ ---> change
+
+
+FIXED:
+    🛠 NATO crew in an APC of the FIA side
+    🛠 European space was removed in Chinese and Japanese texts
+    🛠 Wrong path for 4 textures in "Numbers (v5)" graffiti
+    🛠 Missions texture icons in Object Attributes for "Double Number"
+    🛠 Error massage "bin\config.bin/CfgWeapons/H_Cap_grn_Syndikat_F."
+    🛠 Incorrect value format for the key animation of "Office Table (New / Old)"
+    🛠 Untranslated attribute name of "Office Table (New / Old)"
+    🛠 Missing texture pictures of "Photo (Cities, Altis)" and "Photo (Cities, Stratis)" attributes
+    🛠 Wrong Eden editor preview for "Firing Drill (Alien)" graffiti
+
+
+UPDATED:
+    ↻ Display Names for graffiti introduced in Firing Drills has been redesigned to better identify them e.g. "Firing Drill (Alien)" etc.
+
+
+ADDED:
+    @ Things
+        # Airport
+            + MRL Magazine (Launcher, Empty)
+            + MRL Magazine (Launcher)
+
+        # Office
+            + Photo 1 (Scenarios) ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 1 (Scenarios, Random)
+            + Photo 2 (Scenarios)---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 2 (Scenarios, Random)
+            + Photo 3 (Scenarios)---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 3 (Scenarios, Random)
+            + Photo 4 (Scenarios)---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 4 (Scenarios, Random)
+            + Photo 5 (Scenarios)---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 5 (Scenarios, Random)
+            + Backgammon
+            + Backgammon (Old)
+
+        # Posters
+            + Gallery Room: Plan
+
+        # Intel
+            + Photos (Cities, Altis, Random)
+            + Photos (Cities, Stratis, Random)
+            + Photos (Cities, Altis & Stratis, Random)
+        
+        # Electronics
+            + Rugged Laptop (Black, Open, Video Glitch) ---> #you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Olive, Open, Video Glitch) ---> #you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Sand, Open, Video Glitch) ---> #you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Black, Open, GSC) ---> present possible to change textures in the Object Attributes
+            + Rugged Laptop (Olive, Open, GSC) ---> present possible to change textures in the Object Attributes
+            + Rugged Laptop (Sand, Open, GSC) ---> present possible to change textures in the Object Attributes
+
+
+    @ Sings
+        # Helipads
+            + Parachute Jump Target (Decal)
+            + Helipad (Rescue, Decal)
+            + Helipad (Circle, Decal)
+            + Helipad (Square, Decal)
+            + Helipad (Civil, Decal)
+
+        # Craters
+            + Shell Crater (Decal, 1 m)
+            + Shell Crater (Decal, 10 m)
+            + Shell Crater (Decal, 1x2 m)
+
+        # Gallery --> Subcat added by This mod
+            + Gallery Labels (ARTNAME)---> 124 PCS. interaction with comments for community arts "Art of War"
+
+        # City
+            + Company Sign (Vantland)
+
+        # Graffiti
+            + Graffiti (Misc, v1)
+            + Graffiti (Misc, v2)
+            + Graffiti (Anti-state, v2)
+            + Graffiti (Freedom, v2)
+            + Graffiti (Freedom, v3)
+            + Graffiti (Anti-war, v2)
+            + Graffiti (Anti-war, v3)
+            + Overcast
+            + Lightning (Simple, v1)
+            + Lightning (Simple, v2)
+            + Red Crystal
+            + Puddle (Small, Decal, 1 m)
+            + Puddle (Small, Decal, 10 m)
+            + Puddle (Small, Decal, 1x2 m)
+            + Grass Decal
+            + Puddle (Large, Decal, 1 m)
+            + Puddle (Large, Decal, 10 m)
+            + Puddle (Large, Decal, 1x2 m)
+            + Drainage Deck (Metal, v1, Decal)
+            + Drainage Deck (Metal, v2, Decal)
+            + Drainage Deck (Metal, v3, Decal, 1 m)
+            + Drainage Deck (Metal, v3, Decal, 10 m)
+            + Drainage Deck (Metal, v3, Decal, 1x2 m)
+            + Crack (4x4, Decal, 1 m)
+            + Crack (4x4, Decal, 10 m)
+            + Crack (4x4, Decal, 1x2 m)
+            + Arma (1 m)
+            + Arma (10 m)
+            + Crack (6x2, Decal, 1 m)
+            + Crack (6x2, Decal, 10 m)
+            + Crack (6x2, Decal, 1x2 m)
+            + Dirt Road Cracks (Long, v6)
+            + Dirt Road Cracks (Long, v7)
+            + Dirt Road Cracks (Long, v7, Decal, 1 m)
+            + Dirt Road Cracks (Long, v7, Decal, 10 m)
+            + Dirt Road Cracks (Long, v7, Decal, 1x2 m)
+            + Gallery Room: Valic Room
+            + Gallery Room: Verbeek Room
+            + Gallery Room: Kornelis Hall
+
+        # Road Signs (Altis) --> Subcat added by This mod
+            + City (CITYNAME) ---> 86 PCS.
+
+        # Road Signs (Livonia) --> Subcat added by This mod
+            + City (CITYNAME) ---> 60 PCS.
+
+        # Road Signs (Malden) --> Subcat added by This mod
+            + City (CITYNAME) ---> 28 PCS.
+
+        # Helpers
+            + Sphere (Eden)
+            + Sphere (Eden, Floor)
+            + Rainbow
+            + CAS Zone (Gun and Missiles)
+            + CAS Zone (Missile Strike)
+            + CAS Zone (Gun Run)
+            + Fire Support Zone (155 mm Howitzer)
+            + Fire Support Zone (230 mm Rocket)
+            + Fire Support Zone (82 mm Mortar)
+            + Rectangle
+
+        # Transportation --> Subcat added by This mod
+            + Road (Main, VARIANTNAME) ---> 19 PCS.
+            + Road (City, VARIANTNAME) ---> 18 PCS.
+            + Road (Dirt, VARIANTNAME) ---> 17 PCS.
+            + Road (Rural, VARIANTNAME) ---> 15 PCS.
+            + Road (Highway, VARIANTNAME) ---> 11 PCS.
+
+        # flags
+            + Flag (Netherlands)
+            + Flag (Blanken)
+
+
+    @ Furniture
+        # Gallery
+            + Felt Base (Humanitarian, v1)
+            + Felt Base (Humanitarian, v2)
+            + Diorama Display: Support
+            + Diorama Display: Support (Decal)
+            + Felt Cube
+            + Felt Cube (Large)
+            + Diorama Unit (IDAP, UAV) ---> custom texture, interaction IDAP UAV info
+            + Diorama Unit (IDAP, Doggo) ---> custom texture, interaction IDAP UAV info
+        
+        # Camping            
+            + Camping Table: Sign, Charity
+            + Camping Table: Sign, Charity [IDAP]
+
+
+    @ Equipment
+        # Uniform
+            + Casual Clothes (isn't Art)
+
+
+    @ Structures (Altis)
+        # Static Ships
+            + Destroyer (Disassembled, 1 Bow) ---> customize and randomize numbers ability in Object Attributes
+            + Destroyer (Disassembled, 2 Bridge) ---> ability to damage windows in Object Attributes
+            + Destroyer (Disassembled, 2 Bridge, Interior) 
+            + Destroyer (Disassembled, 3 Dock) 
+            + Destroyer (Disassembled, 3 Dock, Interior)
+            + Destroyer (Disassembled, 4 Hangar) ---> ability to open hungar in Object Attributes
+            + Destroyer (Disassembled, 4 Hangar, Interior)
+            + Destroyer (Disassembled, 5 Stern) ---> ability to random and select the ship side name in Object Attributes
+            + Aircraft Carrier (Disassembled, 1 Bow)
+            + Aircraft Carrier (Disassembled, 2 Bow, Part 2)
+            + Aircraft Carrier (Disassembled, 3 Weapons, Left)
+            + Aircraft Carrier (Disassembled, 4 Weapons, Right)
+            + Aircraft Carrier (Disassembled, 5 Catapult, Left) ---> ability to raise the Jet Blast Deflector in Object Attributes
+            + Aircraft Carrier (Disassembled, 6 Catapult, Right) ---> ability to raise the Jet Blast Deflector in Object Attributes
+            + Aircraft Carrier (Disassembled, 7 Weapons, Left)
+            + Aircraft Carrier (Disassembled, 8 Elevator, Left)
+            + Aircraft Carrier (Disassembled, 9 'Meatball')
+            + Aircraft Carrier (Disassembled, 10 Maintenance)
+            + Aircraft Carrier (Disassembled, 11 Arresting Gear) ---> ability to raise the Jet Blast Deflectors in Object Attributes
+            + Aircraft Carrier (Disassembled, 12 Finger)
+            + Aircraft Carrier (Disassembled, 13 Elevator, Right)
+            + Aircraft Carrier (Disassembled, 14 Island)
+            + Aircraft Carrier (Disassembled, 14 Island, Floor)
+            + Aircraft Carrier (Disassembled, 14 Island, Interior)
+            + Aircraft Carrier (Disassembled, 14 Island, Radar)
+            + Aircraft Carrier (Disassembled, 15 Stern, Left)
+            + Aircraft Carrier (Disassembled, 16 Stern, Right)
+
+
+    № functionality for assets
+        + included script for a random number of books in "Rugged Portable Cabinet (Sand/Black/Olive, Books)" ---> default: off. Enable it in Object Attributes!
+        + expanded functionality of vanilla "Destroyer [USS Liberty]": ability to break windows on the bridge; script for a random side number and side name; ability to choose the side name of a vessel presented by 7 vanilla textures; ---> features are included in the disassembled ship-parts too
+
+
+    № functions [class CfgFinctions]
+        + expEden_fnc_staticNoise ---> adds a static effect for selection texture. [[GA] [LE]]. Params: <OBJECT>,<DISTANCE(of activation)>,<SELECTIONNAME>. Example: [Globe_object1, 50, 0] spawn expEden_fnc_staticNoise;
+        + expEden_fnc_Destroyer01HandleDamage3den ---> broke windows in destroyer bridge. [[GA] [GE]]. Params: <OBJECT>,<HIDE SELECTION NAME>,<UNHIDE SELECTION NAME>. Example: [[Globe_object2, 'Land_Destroyer_01_hull_02_F'] call bis_fnc_destroyer01GetShipPart),'glass_12_hide','glass_12_unhide'] call expEden_fnc_Destroyer01HandleDamage3den; ---> easyer exec in Destroyer Attributes
+
+
+    № animations
+        + Replaced passenger in-cabin animation for "HEMTT Flatbed", "HEMTT Cargo", "HEMTT Transport" and "HEMTT Transport (Covered)" + their tropical versions ---> Jack Stype's animation from 'First Contact' campaign (Contact expansion)
+
+
+
+CHANGED:
+    ⎇ name old "Planks Barricade (v1)"          new "Plank Barricade (v1, Decal)"           class old "planks_1"             new "PlankBarricade_01_v1_decal"
+    ⎇ name old "Planks Barricade (v2)"          new "Plank Barricade (v2, Decal)"           class old "planks_2"             new "PlankBarricade_01_v2_decal"
+  
+    ⎇ name old "Sandbag Barricade (Lower)"      new "Sandbag Barricade (Pile, Decal)"       class old "sandbags_1"           new "SandbagBarricade_02_decal"
+  
+    ⎇ name old "Plywood Barricade"              new "Plywood Barricade (Decal)"             class old "barricade_2"          new "PlywoodBarricade_01_decal"
+ 
+    ⎇ name old "Airplane Crater (Huge)"         new "Airplane Crater (Huge, Decal)"         class old "Land_CraterLong_Huge" new "CraterLong_Huge_Decal"
+ 
+    ⎇ class old "exp_roadDecal_crossing"        new "PedestrianCrossing_02_8m_10str"
+    ⎇ class old "exp_roadDecal_RD_LineC_90deg"  new "roads_marking_line_90deg"
+    ⎇ class old "exp_roadDecal_RD_LineC_45deg"  new "roads_marking_line_45deg"
+    ⎇ class old "exp_roadDecal_RD_LineC_15deg"  new "roads_marking_line_15deg"
+    ⎇ class old "exp_roadDecal_arrow_left"      new "roads_marking_arrow_left"
+    ⎇ class old "exp_roadDecal_arrow_right"     new "roads_marking_arrow_right"
+    ⎇ class old "exp_roadDecal_arrow_stright"   new "roads_marking_arrow_straight"
+    ⎇ class old "exp_roadDecal_arrow_strleft"   new "roads_marking_arrow_straight_left"
+    ⎇ class old "exp_roadDecal_arrow_strright"  new "roads_marking_arrow_straight_right"
+    ⎇ class old "exp_roadDecal_giveway"         new "roads_marking_giveWay"
+    ⎇ class old "exp_roadDecal_RD_BusStop"      new "roads_marking_busStop"
+    ⎇ class old "exp_roadDecal_RD_KeepClear"    new "roads_marking_keepClear"
+    ⎇ class old "exp_roadDecal_RD_Stop"         new "roads_marking_stop"
+    ⎇ class old "exp_roadDecal_RD_Taxi"         new "roads_marking_taxi"
+    ⎇ class old "exp_roadDecal_RD_Line_2m"      new "roads_marking_line_2m"
+    ⎇ class old "exp_roadDecal_RD_Line_5m"      new "roads_marking_line_5m"
+    ⎇ class old "exp_roadDecal_RD_Line_10m"     new "roads_marking_line_10m"
+  
+    ⎇ class old "Land_Backgammon_F"             new "Backgammon_01_New"
