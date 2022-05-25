@@ -1,0 +1,468 @@
+Legend:
+    "--->" ---> comment
+
+    @   ---> Eden editor category
+    #   ---> Eden editor subcategory
+    +   ---> New asset
+    🛠  ---> fixed bug
+    ↻   ---> update
+    №   ---> non-Eden editor change
+    ⎇   ---> change
+
+
+FIXED:
+    🛠 European space was removed in Chinese and Japanese texts
+    🛠 Wrong path for 4 textures in "Numbers (v5)" graffiti
+    🛠 Missions texture icons in Object Attributes for "Double Number"
+    🛠 Error massage "bin\config.bin/CfgWeapons/H_Cap_grn_Syndikat_F."
+    🛠 Incorrect value format for the key animation of "Office Table (New / Old)"
+    🛠 Untranslated attribute name of "Office Table (New / Old)"
+    🛠 NATO crew in an APC of the FIA side
+    🛠 Missing texture pictures of "Photo (Cities, Altis)" and "Photo (Cities, Stratis)" attributes
+    🛠 Wrong Eden editor preview for "Firing Drill (Alien)" graffiti
+
+
+UPDATED:
+    ↻ Display Names for graffiti introduced in Firing Drills has been redesigned to better identify them e.g. "Firing Drill (Alien)" etc.
+    ↻ Display Names for road surface marking
+    ↻ All CfgMusic classes included at CfgSounds
+    ↻ Removed Mobile Radar attribute added by this mod as duplicate of BI attribute
+    ↻ Compass (Black) now have working animations of pointer and arrow
+    ↻ Reworked map markers localization
+    ↻ Reworked helpers localization
+    ↻ Reworked garbage localization
+
+
+ADDED:
+    @ Things
+        # Airport
+            + Old Laptop (Open, OFP, Video)
+
+        # Airport
+            + MRL Magazine (Launcher, Empty)
+            + MRL Magazine (Launcher)
+
+        # Military
+            + Belt (Link)
+
+        # Office
+            + Photo 1 (Scenarios)       ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 1 (Scenarios, Random)
+            + Photo 2 (Scenarios)       ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 2 (Scenarios, Random)
+            + Photo 3 (Scenarios)       ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 3 (Scenarios, Random)
+            + Photo 4 (Scenarios)       ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 4 (Scenarios, Random)
+            + Photo 5 (Scenarios)       ---> present possible to change textures in the Object Attributes - Overview images from all official missions
+            + Photo 5 (Scenarios, Random)
+            + Backgammon
+            + Backgammon (Old)
+
+        # Posters
+            + Gallery Room: Plan
+
+        # Garbage
+            + Debris (Stone)
+
+        # Medicine
+            + First Aid Box (Military)
+            + First Aid Kit
+            + Blood Trail (Medium, New, v1)
+            + Blood Trail (Medium, New, v2)
+            + Blood Trail (Small, New)
+            + Blood Trail (Small, Old)
+            + Blood Trail (Small, New, Dirt, v1)
+            + Blood Trail (Small, New, Dirt, v2)
+            + Blood Trail (Small, New, Dirt, v3)
+            + Blood Trail (Small, New, Dirt, v4)
+            + Blood Spray (Small, New)
+            + Blood Spray (Small, New, Bunch)
+            + Blood Spray (Small, New, Couple)
+            + Flesh
+            + IV Stand (1 Bag, v2)
+            + IV Stand (Random)
+
+        # Intel
+            + Photos (Cities, Altis, Random)
+            + Photos (Cities, Stratis, Random)
+            + Photos (Cities, Altis & Stratis, Random)
+
+        # Electronics
+            + Rugged Laptop (Black, Open, Video Glitch) ---> you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Olive, Open, Video Glitch) ---> you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Sand, Open, Video Glitch) ---> you can enable abyliti to animate the screen static effect in the Object Attributes
+            + Rugged Laptop (Black, Open, GSC) ---> present possible to change textures in the Object Attributes
+            + Rugged Laptop (Olive, Open, GSC) ---> present possible to change textures in the Object Attributes
+            + Rugged Laptop (Sand, Open, GSC) ---> present possible to change textures in the Object Attributes
+            + Rugged Large Screen (Video)
+            + Rugged Large Screen (Video, Intel)
+
+    @ VR Objects
+        # Men
+            + Crewman ---> 103 PCS. (proxi, nontextured models)
+            + Bust (Africans)
+            + Bust (Asian)
+            + Bust (Persians)
+            + Bust (European)
+
+        # Helpers
+            + VR Sign (Target Designation)          ---> you can change the color in the attributes of the object
+            + VR Sign (Target Designation, Random)
+            + VR Sign (Placeables)                  ---> you can change the color in the attributes of the object
+            + VR Sign (Placeables, Random)
+            + VR Sign (Lock)                        ---> you can change the color in the attributes of the object
+            + VR Sign (Lock, Random)
+            + VR Sign (Launchers)                   ---> you can change the color in the attributes of the object
+            + VR Sign (Launchers, Random)
+            + VR Sign (Commanding - Vehicles)       ---> you can change the color in the attributes of the object
+            + VR Sign (Commanding - Vehicles, Random)
+            + VR Sign (Commanding - Movement)       ---> you can change the color in the attributes of the object
+            + VR Sign (Commanding - Movement, Random)
+            + VR Sign (Commanding - Behavior)       ---> you can change the color in the attributes of the object
+            + VR Sign (Commanding - Behavior, Random)
+            + VR Sign (Commanding - Actions)        ---> you can change the color in the attributes of the object
+            + VR Sign (Commanding - Actions, Random)
+            + VR Sign (Material Penetration)        ---> you can change the color in the attributes of the object
+            + VR Sign (Material Penetration, Random)
+
+    @ Sings
+        # Helipads
+            + Parachute Jump Target (Decal)
+            + Helipad (Rescue, Decal)
+            + Helipad (Circle, Decal)
+            + Helipad (Square, Decal)
+            + Helipad (Civil, Decal)
+
+        # Craters
+            + Shell Crater (Decal, 1 m)
+            + Shell Crater (Decal, 10 m)
+            + Shell Crater (Decal, 1x2 m)
+
+        # Gallery --> Subcat added by This mod
+            + Gallery Labels (ARTNAME)---> 124 PCS. & interaction with comments about community "Art of War" arts
+
+        # City
+            + Company Sign (Vantland)
+
+        # Graffiti
+            + Graffiti (Misc, v1)
+            + Graffiti (Misc, v2)
+            + Graffiti (Anti-state, v2)
+            + Graffiti (Freedom, v2)
+            + Graffiti (Freedom, v3)
+            + Graffiti (Anti-war, v2)
+            + Graffiti (Anti-war, v3)
+            + Red Crystal
+            + Puddle (Small, Decal, 1 m)
+            + Puddle (Small, Decal, 10 m)
+            + Puddle (Small, Decal, 1x2 m)
+            + Grass Decal
+            + Puddle (Large, Decal, 1 m)
+            + Puddle (Large, Decal, 10 m)
+            + Puddle (Large, Decal, 1x2 m)
+            + Drainage Deck (Metal, v1, Decal)
+            + Drainage Deck (Metal, v2, Decal)
+            + Drainage Deck (Metal, v3, Decal, 1 m)
+            + Drainage Deck (Metal, v3, Decal, 10 m)
+            + Drainage Deck (Metal, v3, Decal, 1x2 m)
+            + Crack (4x4, Decal, 1 m)
+            + Crack (4x4, Decal, 10 m)
+            + Crack (4x4, Decal, 1x2 m)
+            + Crack (6x2, Decal, 1 m)
+            + Crack (6x2, Decal, 10 m)
+            + Crack (6x2, Decal, 1x2 m)
+            + Dirt Road Cracks (Long, v6)
+            + Dirt Road Cracks (Long, v7)
+            + Dirt Road Cracks (Long, v7, Decal, 1 m)
+            + Dirt Road Cracks (Long, v7, Decal, 10 m)
+            + Dirt Road Cracks (Long, v7, Decal, 1x2 m)
+            + Gallery Room: Valic Room
+            + Gallery Room: Verbeek Room
+            + Gallery Room: Kornelis Hall
+            + Arma (1 m)
+            + Arma (10 m)
+            + Window (v1, Broken)
+            + Window (v2)
+            + Window (v2, Hits)
+            + Window (v2, Broken)
+            + Camouflage Net (v1)
+            + Camouflage Net (v1, Random)
+            + Camouflage Net (v2)
+            + Camouflage Net (v2, Random)
+
+        # Airport
+            + Runway
+            + Runway (40 m, Threshold, Decal)
+            + Runway (40 m, Decal)
+            + Runway (40 m)
+            + Runway (80 m)
+            + Runway (End 22)
+            + Runway (End 22, Left)
+            + Runway (End 04)
+            + Runway (End 04, Right)
+            + Runway (End 02)
+            + Runway (End 06)
+            + Runway (End 20)
+            + Runway (End 36, Decal)
+            + Runway (End 18)
+            + Runway (Secondary, 40 m, Decal)
+            + Runway (Secondary, End 22, Decal)
+            + Runway (Secondary, End 22, Right, Decal)
+            + Runway (Secondary, End 04, Left, Decal)
+            + Runway (Secondary, End 04, Decal)
+            + Marking (Airport, Line, Long)
+            + Marking (Airport, Line, Turn, Long, Decal)
+            + Marking (Airport, Line, Turn)
+            + Marking (Airport, Line, v1)
+            + Marking (Airport, Line, v2)
+            + Marking (Airport, Line, v3)
+            + Marking (Airport, Line, v4)
+            + Marking (Airport, Line, v5)
+            + Marking (Airport, Line, v6)
+
+        # Road Signs
+            + City (Altis, CITYNAME)        ---> 43 PCS.
+            + City (Altis, CITYNAME, End)   ---> 43 PCS.
+            + City (Livonia, CITYNAME)      ---> 30 PCS.
+            + City (Livonia, CITYNAME, End) ---> 30 PCS.
+            + City (Malden, CITYNAME)       ---> 14 PCS.
+            + City (Malden, CITYNAME, End)  ---> 14 PCS.
+
+        # Helpers
+            + Sphere (Eden)
+            + Sphere (Eden, Floor)
+            + Rainbow
+            + CAS Zone (Gun and Missiles)
+            + CAS Zone (Missile Strike)
+            + CAS Zone (Gun Run)
+            + Fire Support Zone (155 mm Howitzer)
+            + Fire Support Zone (230 mm Rocket)
+            + Fire Support Zone (82 mm Mortar)
+            + Rectangle
+            + Muzzle Flash (V-44 X Blackfish)
+            + Muzzle Flash (Tanks)
+            + Muzzle Flash (IFV-6a Cheetah)
+            + Muzzle Flash (Mk32 GMG 20 mm)
+            + Muzzle Flash (Mk30 HMG .50)
+            + Muzzle Flash (M2 HMG .50)
+            + Muzzle Flash (Minigun 7.62 mm)
+            + Muzzle Flash - Sparks
+            + Muzzle Flash - SPG
+            + Muzzle Flash (ACP-C2 .45 ACP)
+            + Muzzle Flash (Starter Pistol)
+            + Muzzle Flash (4-five .45 ACP)
+            + Muzzle Flash (P07 9 mm)
+            + Muzzle Flash (Pistols)
+            + Muzzle Flash (AA-12)
+            + Muzzle Flash (GM6 Lynx 12.7 mm)
+            + Muzzle Flash (Vermin SMG .45 ACP)
+            + Muzzle Flash (KSG)
+            + Muzzle Flash (M4)
+            + Muzzle Flash (Mk200 6.5 mm)
+            + Muzzle Flash (Mk20 5.56 mm)
+            + Muzzle Flash (Mx25)
+            + Muzzle Flash (PDW2000 9 mm)
+            + Muzzle Flash (SDAR 5.56 mm)
+            + Muzzle Flash (Sting 9 mm)
+            + Muzzle Flash (v1)
+            + Muzzle Flash (v2)
+            + Muzzle Flash (v3)
+            + Muzzle Flash (Sound Suppressor, v1)
+            + Muzzle Flash (Sound Suppressor, v2)
+            + Muzzle Flash (Zephyr Missile)
+            + Muzzle Flash (Macer II Missile)
+            + Muzzle Flash (BIM 9x Missile)
+            + Muzzle Flash (SAAMI Missile)
+            + Muzzle Flash (TRG 5.56 mm)
+            + Cloud (1m)
+            + Cloud (10m)
+            + Lightning (Simple, v1)
+            + Lightning (Simple, v2)
+            + Sparks
+            + Arrow (Small, White)
+            + Broken Glass (Partial, v7)
+            + Broken Glass (Partial, v6)
+            + Broken Glass (Partial, v5)
+            + Broken Glass (Partial, v4)
+            + Broken Glass (Partial, v3)
+            + Broken Glass (Partial, v2)
+            + Broken Glass (Partial, v1)
+
+        # Transportation --> Subcat added by This mod
+            + Road (Main, VARIANTNAME) ---> 19 PCS.
+            + Road (City, VARIANTNAME) ---> 18 PCS.
+            + Road (Dirt, VARIANTNAME) ---> 17 PCS.
+            + Road (Rural, VARIANTNAME) ---> 15 PCS.
+            + Road (Highway, VARIANTNAME) ---> 11 PCS.
+
+        # Flags
+            + Flag (Netherlands)
+            + Flag (Blanken)
+
+        # Environment
+            + Wood Chip
+            + Leaf
+            + Leaf (Green)
+            + Deciduous Tree Branch
+            + Deciduous Tree Branch (Green)
+            + Wheat
+            + Wheat (Seed)
+
+        # Advertisements
+            + Sign (Bootcamp, Go)
+            + Sign (Bootcamp, Grenade Firing Range)
+            + Sign (Bootcamp, Infantry Obstacle Course)
+            + Sign (Bootcamp, Kart Track)
+            + Sign (Bootcamp, Vehicle Firing Range)
+            + Sign (Bootcamp, Vehicle Obstacle Course)
+            + Sign (Bootcamp, Weapons Firing Range)
+            + Sign (Bootcamp, Wrong Way)
+            + Noticeboard (Bootcamp, Go)
+            + Noticeboard (Bootcamp, Grenade Firing Range)
+            + Noticeboard (Bootcamp, Infantry Obstacle Course)
+            + Noticeboard (Bootcamp, Kart Track)
+            + Noticeboard (Bootcamp, Vehicle Firing Range)
+            + Noticeboard (Bootcamp, Vehicle Obstacle Course)
+            + Noticeboard (Bootcamp, Weapons Firing Range)
+            + Noticeboard (Bootcamp, Wrong Way)
+
+    @ Furniture
+        # Gallery
+            + Felt Base (Humanitarian, v1)
+            + Felt Base (Humanitarian, v2)
+            + Diorama Display: Support
+            + Diorama Display: Support (Decal)
+            + Felt Cube
+            + Felt Cube (Large)
+            + Diorama Unit (IDAP, UAV) ---> custom texture and interaction IDAP UAV info
+            + Diorama Unit (IDAP, Doggo) ---> custom texture and interaction IDAP UAV info
+
+        # Camping            
+            + Camping Table: Sign, Charity
+            + Camping Table: Sign, Charity [IDAP]
+
+        # Office
+            + Pinkboard (Empty)
+            + Pinkboard (Empty, Wall)
+
+    @ Wrecks
+        # Helicopters
+            + PO-30 Wreck (Hex, Door)
+            + PO-30 Wreck (Hex, Tail)
+            + PO-30 Wreck (Hex, Fuselage)
+            + PO-30 Wreck (Black & White, Door)
+            + PO-30 Wreck (Black & White, Tail)
+            + PO-30 Wreck (Black & White, Fuselage)
+            + PO-30 Wreck (Blue, Door)
+            + PO-30 Wreck (Blue, Tail)
+            + PO-30 Wreck (Blue, Fuselage)
+            + PO-30 Wreck (Digital, Door)
+            + PO-30 Wreck (Digital, Tail)
+            + PO-30 Wreck (Digital, Fuselage)
+
+    @ Equipment
+        # Uniform
+            + Casual Clothes (isn't Art)
+
+    @ Structures (Altis)
+        # Static Ships
+            + Destroyer (Disassembled, 1 Bow) ---> customize and randomize numbers ability in Object Attributes
+            + Destroyer (Disassembled, 2 Bridge) ---> ability to damage windows in Object Attributes
+            + Destroyer (Disassembled, 2 Bridge, Interior) 
+            + Destroyer (Disassembled, 3 Dock) 
+            + Destroyer (Disassembled, 3 Dock, Interior)
+            + Destroyer (Disassembled, 4 Hangar) ---> ability to open hungar in Object Attributes
+            + Destroyer (Disassembled, 4 Hangar, Interior)
+            + Destroyer (Disassembled, 5 Stern) ---> ability to random and select the ship side name in Object Attributes
+            + Aircraft Carrier (Disassembled, 1 Bow)
+            + Aircraft Carrier (Disassembled, 2 Bow, Part 2)
+            + Aircraft Carrier (Disassembled, 3 Weapons, Left)
+            + Aircraft Carrier (Disassembled, 4 Weapons, Right)
+            + Aircraft Carrier (Disassembled, 5 Catapult, Left) ---> ability to raise the Jet Blast Deflector in Object Attributes
+            + Aircraft Carrier (Disassembled, 6 Catapult, Right) ---> ability to raise the Jet Blast Deflector in Object Attributes
+            + Aircraft Carrier (Disassembled, 7 Weapons, Left)
+            + Aircraft Carrier (Disassembled, 8 Elevator, Left)
+            + Aircraft Carrier (Disassembled, 9 'Meatball')
+            + Aircraft Carrier (Disassembled, 10 Maintenance)
+            + Aircraft Carrier (Disassembled, 11 Arresting Gear) ---> ability to raise the Jet Blast Deflectors in Object Attributes
+            + Aircraft Carrier (Disassembled, 12 Finger)
+            + Aircraft Carrier (Disassembled, 13 Elevator, Right)
+            + Aircraft Carrier (Disassembled, 14 Island)
+            + Aircraft Carrier (Disassembled, 14 Island, Floor)
+            + Aircraft Carrier (Disassembled, 14 Island, Interior)
+            + Aircraft Carrier (Disassembled, 14 Island, Radar)
+            + Aircraft Carrier (Disassembled, 15 Stern, Left)
+            + Aircraft Carrier (Disassembled, 16 Stern, Right)
+
+    @ Structures (Tanoa)
+        # Railways
+            + Track (Turnout, Right, Switched) ---> abyliti intermediate animation for closure rails
+            + Track (Turnout, Left, Switched) ---> abyliti intermediate animation for closure rails
+            + Track (Turnout Switch Lever, Switched) ---> abyliti intermediate animation for lever
+
+    @ Structures (Livonia)
+        # Religious
+            + Church (Light Yellow, Small, Damaged, Bituminous)
+
+    № functionality for assets
+        + included script for a random number of books in "Rugged Portable Cabinet (Sand/Black/Olive, Books)" ---> default: off. Enable it in Object Attributes!
+        + included script for a random phase of drawler animations "Rugged Portable Cabinet (Sand/Black/Olive, 7/4 Drawers)" ---> default: off. Enable it in Object Attributes!
+        + added script for a random phase of drawlers and key animations of Office Table (New/Old) ---> default: off. Enable it in Object Attributes!
+        + expanded functionality of vanilla "Destroyer [USS Liberty]": ability to break windows on the bridge; script for a random side number and side name; ability to choose the side name of a vessel presented by 7 vanilla textures; ---> features are included in the disassembled ship-parts too
+        + expEden_fnc_3DENObjectBoxMarker       ---> Defines the type of object, its size and creates a marker of the corresponding type - open an object's attributes, find 'Marker on the Map' checkbox and enable it 
+        + expEden_fnc_3DENCarAlarmInit          ---> Activating the BIS_fnc_carAlarm finction by checkbox in Car attribution. - in the attributed of every supported object
+        + expEden_fnc_3DENAttributeGlassStates  ---> Repair, damage or destroy the window selected in the building attributes. - in the attributed of every supported object
+
+    № functions [class CfgFinctions]
+        + expEden_fnc_staticNoise ---> adds a static effect-texture. [[GA] [LE]]. Params: <OBJECT>,<DISTANCE(of activation)>,<SELECTION(name of selection)>. Example: [my_splendid_laptop, 50, 1] spawn expEden_fnc_staticNoise;
+        + expEden_fnc_Destroyer01HandleDamage3den ---> broke windows in destroyer bridge. [[GA] [GE]]. Params: <OBJECT>,<HIDE SELECTION NAME>,<UNHIDE SELECTION NAME>. Example: [[my_splendid_ship, 'Land_Destroyer_01_hull_02_F'] call bis_fnc_destroyer01GetShipPart),'glass_12_hide','glass_12_unhide'] call expEden_fnc_Destroyer01HandleDamage3den; ---> easyer exec in Destroyer Attributes
+        + expEden_fnc_radioNewsMusic ---> plays on object all music and news tracks from Arma 3 data, 17 sec is min duration for play
+
+    № animations
+        + Replaced passenger in-cabin animation for "HEMTT Flatbed", "HEMTT Cargo", "HEMTT Transport" and "HEMTT Transport (Covered)" + their tropical versions ---> Jack Stype's animation from 'First Contact' campaign (Contact expansion)
+
+    № modules
+        + Art of War DLC civilians added in whitelist in Civilian Presence module ---> 60 units
+
+
+CHANGED:
+    ⎇ name old "Planks Barricade (v1)"          new "Plank Barricade (v1, Decal)"           class old "planks_1"             new "PlankBarricade_01_v1_decal"
+    ⎇ name old "Planks Barricade (v2)"          new "Plank Barricade (v2, Decal)"           class old "planks_2"             new "PlankBarricade_01_v2_decal"
+  
+    ⎇ name old "Sandbag Barricade (Lower)"      new "Sandbag Barricade (Pile, Decal)"       class old "sandbags_1"           new "SandbagBarricade_02_decal"
+  
+    ⎇ name old "Plywood Barricade"              new "Plywood Barricade (Decal)"             class old "barricade_2"          new "PlywoodBarricade_01_decal"
+ 
+    ⎇ name old "Airplane Crater (Huge)"         new "Airplane Crater (Huge, Decal)"         class old "Land_CraterLong_Huge" new "CraterLong_Huge_Decal"
+ 
+    ⎇ class old "exp_roadDecal_crossing"        new "PedestrianCrossing_02_8m_10str"
+    ⎇ class old "exp_roadDecal_RD_LineC_90deg"  new "marking_road_Line_90deg"
+    ⎇ class old "exp_roadDecal_RD_LineC_45deg"  new "marking_road_line_45deg"
+    ⎇ class old "exp_roadDecal_RD_LineC_15deg"  new "marking_road_line_15deg"
+    ⎇ class old "exp_roadDecal_arrow_left"      new "marking_road_arrow_left"
+    ⎇ class old "exp_roadDecal_arrow_right"     new "marking_road_arrow_right"
+    ⎇ class old "exp_roadDecal_arrow_stright"   new "marking_road_arrow_straight"
+    ⎇ class old "exp_roadDecal_arrow_strleft"   new "marking_road_arrow_straight_left"
+    ⎇ class old "exp_roadDecal_arrow_strright"  new "marking_road_arrow_straight_right"
+    ⎇ class old "exp_roadDecal_giveway"         new "marking_road_giveWay"
+    ⎇ class old "exp_roadDecal_RD_BusStop"      new "marking_road_busStop"
+    ⎇ class old "exp_roadDecal_RD_KeepClear"    new "marking_road_keepClear"
+    ⎇ class old "exp_roadDecal_RD_Stop"         new "marking_road_stop"
+    ⎇ class old "exp_roadDecal_RD_Taxi"         new "marking_road_taxi"
+    ⎇ class old "exp_roadDecal_RD_Line_2m"      new "marking_road_line_2m"
+    ⎇ class old "exp_roadDecal_RD_Line_5m"      new "marking_road_line_5m"
+    ⎇ class old "exp_roadDecal_RD_Line_10m"     new "marking_road_line_10m"
+  
+    ⎇ class old "Land_Backgammon_F"             new "Backgammon_01_New"
+
+	- Land_Shard01_F
+	- Land_Shard02_F
+    - Land_Shard03_F
+	- Land_Shard04_F
+	- Land_WallShard01_F        WallCity_01_debris
+	- Land_WallShard02_F        Stone_debris
+
+
+DELETED aka HIDEN:
+    - Ficus (v4) ---> duplicated 3d model and texture
