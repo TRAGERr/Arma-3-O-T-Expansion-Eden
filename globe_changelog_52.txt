@@ -1,0 +1,231 @@
+ADDED:
+
+    Weapon: Flare Tripwire Mine
+    № Phone call function for Rugged IP Telephones <--- disabled by default, enable it in "Rugged IP Telephone (Sand / Black / Olive)" attributes
+    @ Things
+        # Office
+            + Newspaper (v2)
+        # Food
+            + Pumpkin (Part)
+            + Orange (Part)
+        # Tools
+            + Hook
+            + Rope (v2, Segment)
+        # Military
+            + Parachute (Infantry)
+            + Parachute (Cargo)
+        # Garbage
+            + Roof Tiles
+            + Garbage (Electronics)
+            + Garbage (Timber, v1)
+            + Garbage (Timber, v2)
+            + Garbage (Brick)
+            + Garbage (Brick, Broken)
+
+    @ Structures (Livonia)
+        # Utilities
+            + Powerline Pole (Junction, A, Bird Nest) <--- birds sounds from nest (sounds differ depending the day or night)
+        # Village
+            + Chicken Coop (Poultry) <--- chicken sounds from object (from 1 to 5 sound sources)
+    
+    @ Equipment
+        # Headgeras
+            + Advanced Modular Helmet
+            + Advanced Modular Helmet (Olive, Ear Protectors)
+            + Advanced Modular Helmet (Olive, Chops)
+            + Advanced Modular Helmet (Olive, Headset)
+        # Backpacks
+            + Kitbag (Digital)
+            + Kitbag (Black)
+            + Carryall Backpack (Black)
+            + Military Cap (Tan)
+            + Military Cap (Checker)
+            + Military Cap (Checker, White)
+            + Military Cap (Checker, Tan)
+        # Uniforms
+            + Worker Coveralls (Digital)
+            + Worker Coveralls (Gray)
+            + Worker Coveralls (Black)
+            + Worker Coveralls (Orange)
+    
+    @ Envornment
+        # Rocks
+            + Cluster of Small Stones (Light Grey, Underwater, Few)
+            + Cluster of Small Stones (Light Grey, Underwater, Bunch)
+    
+    @ Signs
+        # Graffiti
+            + Cracks (Aquatic, v1)
+            + Cracks (Aquatic, v2)
+            + Cracks (Aquatic, v3)
+            + Cracks (Aquatic, v4)
+            + Landing Gear Skids Track (v1)
+            + Landing Gear Skids Track (v1, End)
+            + Landing Gear Skids Track (v2)
+            + Landing Gear Skids Track (v2, End)
+            + Numbers (Airport, 0)
+            + Numbers (Airport, 1)
+            + Numbers (Airport, 2)
+            + Numbers (Airport, 3)
+            + Numbers (Airport, 4)
+            + Numbers (Airport, 5)
+            + Numbers (Airport, 6)
+            + Numbers (Airport, 7)
+            + Numbers (Airport, 8)
+            + Numbers (Airport, 9)
+        # Airport
+            + Runway (v2, 30 m)
+            + Runway (v2, 30 m, End)
+            + Runway (v2, 40 m)
+            + Runway (v2, 40 m, End)
+            + Runway Marker (25)
+            + Runway Marker (07)
+            + Marking (Airport, Arrow)
+            + Marking (Airport, Сenterline, 5 m)
+            + Marking (Airport, Сenterline, 10 m)
+            + Marking (Airport, Сenterline, 20 m)
+            + Marking (Airport, Threshold, 20 m)
+            + Marking (Airport, 05)
+            + Marking (Airport, 11)
+            + Marking (Airport, 11-29)
+            + Marking (Airport, 13)
+            + Marking (Airport, 17)
+            + Marking (Airport, 17-35)
+            + Marking (Airport, 23)
+            + Marking (Airport, 23-05)
+            + Marking (Airport, 29)
+            + Marking (Airport, 31)
+            + Marking (Airport, 31-13)
+            + Marking (Airport, 35)
+            + Marking (Airport, Taxiway, 5 m)
+            + Marking (Airport, Taxiway, Сenter Line, 5 m)
+            + Marking (Airport, Taxiway, Сenter Line, 10 m)
+            + Marking (Airport, Taxiway, Сenter Line, 20 m)
+            + Marking (Airport, Taxiway, Сenter Line, 45 deg)
+            + Marking (Airport, Taxiway, Сenter Line, 90 deg)
+            + Marking (Airport, Taxiway, Edge Line, 5 m)
+            + Marking (Airport, Taxiway, Edge Line, 10 m)
+            + Marking (Airport, Taxiway, Edge Line, 20 m)
+            + Marking (Airport, Taxiway, Edge Line, 45 deg)
+            + Marking (Airport, Taxiway, Edge Line, 90 deg)
+            + Marking (Airport, Taxiway, Waiting Line, 10 m)
+            + Marking (Airport, Taxiway, Waiting Line, 15 m)
+            + Marking (Airport, Taxiway, Waiting Line, 20 m)
+    
+    @ Vegetation
+        # Aquatic
+            + Coral (Pink, Bunch)
+            + Coral (Pink)
+            + Elephant Ear Anemone (v1)
+            + Elephant Ear Anemone (v2)
+            + Elephant Ear Anemone (Bunch, v1)
+            + Elephant Ear Anemone (Bunch, v2)
+            + Sand Dollar (Bunch)
+            + Sand Dollar (Purple)
+            + Sand Dollar (Pink)
+            + Sand Dollar (Cyan)
+            + Sand Dollar (Red)
+            + Starfish (v1)
+            + Starfish (v2)
+            + Sponge Tube (Yellow, v1)
+            + Sponge Tube (Yellow, v2)
+            + Sponge Tube (Yellow, v3)
+            + Sponge Tube (Yellow, v4)
+            + Sponge Tube (Green, v1)
+            + Sponge Tube (Green, v2)
+            + Sponge Tube (Green, v3)
+            + Sponge Tube (Green, v4)
+            + Seaweed (v1)
+            + Seaweed (v2)
+            + Sea Urchin (Black)
+            + Sea Urchin (Black, Bunch)
+            + Sea Urchin (Red)
+            + Sea Urchin (Red, Bunch)
+            + Sea Urchin (Brown)
+            + Sea Urchin (Brown, Bunch)
+
+        # Clutters
+            + Arundo Donax (Leaf)
+            + Ficus Benjamina (Leaf)
+            + Fig (Leaf)
+            + Oleander (Leaf)
+            + Oleander (Decorative, Leaf)
+            + Pine (Leaf)
+            + Poplar (Leaf)
+            + Oak (Leaf)
+            + Grass (Flowers, White)
+            + Grass (Flowers, Blue)
+            + Brain Coral
+            + Brain Coral (White)
+            + Brain Coral (Flat, v1)
+            + Brain Coral (Flat, v2)
+            + Brain Coral (Flat, v3)
+            + Brain Coral (Flat, Bunch)
+            + Cakile
+            + Flowers (Yellow)
+            + Flowers (Yellow, Low)
+            + Flowers (White, v1)
+            + Flowers (White, v2)
+            + Grass (Dry, Long, v1)
+            + Grass (Dry, Long, v2)
+            + Grass (Green)
+            + Grass (Green, Old)
+            + Grass (Green, Young)
+            + Grass (2x2m, v1)
+            + Grass (2x2m, v2)
+            + Grass (2x2m, Few)
+            + Grass (3x3m)
+            + Grass (4x4m)
+            + Grass (Sharp)
+            + Grass (Big, Dry)
+            + Grass (Big, v1)
+            + Grass (Big, v2)
+            + Cow Bitter
+            + Plant(Green)
+            + Plant(Green, Small)
+            + Rumex acetosella
+            + Chicory
+            + Great mullein
+            + Thistle (Dry)
+            + Thistle (Dry, Tall)
+        
+        # Bushes
+            + Thistle (Grey)
+            + Thistle (Brown)
+            + Thistle (Flowers)
+            + Thistle (Flowers, Yellow)
+    
+    @ Vegetation (Livonia)
+        # Clutters
+            + Arundo Donax (Leaf)
+            + Ficus Benjamina (Leaf)
+            + Fig (Leaf)
+            + Oleander (Leaf)
+            + Oleander (Decorative, Leaf)
+            + Pine (Leaf)
+            + Poplar (Leaf)
+            + Pine branches (v1)
+            + Pine branches (v2)
+            + Pine branches (v3)
+
+
+FIXED:
+    🛠 [expEden_fnc_laptopSimulationTreminatedAnimate] function error massage
+    🛠 Unfinished Building (Big, No Ladder) preview imagine
+    🛠 Wrong 3d model of Willow
+    🛠 Norway Spruce (v11) has been translated into Russian language only
+    🛠 Airport markings for Japanese, Chinese, Korean, Simplified Chinese was named as Road
+    🛠 Script errors on some assets on Eden Editor undo https://feedback.bistudio.com/T162775
+
+
+UPDATED:
+    ↻ Tweaked translation of Broken Glass (1x1m) to all Arma 3 languages are presents now
+    ↻ Reworked vegetation texts translation
+
+
+CHANGED:
+    ⎇ nothing
+
+
+DELETED aka HIDEN:
+    - nothing
